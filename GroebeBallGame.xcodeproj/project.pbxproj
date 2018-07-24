@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19A3A8F220B74EA400ACAEF9 /* NodeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3A8F120B74EA400ACAEF9 /* NodeObject.swift */; };
 		19B3F02C20B4F6EA003BD69C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B3F02B20B4F6EA003BD69C /* AppDelegate.swift */; };
 		19B3F02E20B4F6EA003BD69C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19B3F02D20B4F6EA003BD69C /* GameScene.sks */; };
 		19B3F03020B4F6EA003BD69C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 19B3F02F20B4F6EA003BD69C /* Actions.sks */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19A3A8F120B74EA400ACAEF9 /* NodeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeObject.swift; sourceTree = "<group>"; };
 		19B3F02820B4F6EA003BD69C /* GroebeBallGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroebeBallGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B3F02B20B4F6EA003BD69C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19B3F02D20B4F6EA003BD69C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				19B3F03820B4F6EA003BD69C /* Assets.xcassets */,
 				19B3F03A20B4F6EA003BD69C /* LaunchScreen.storyboard */,
 				19B3F03D20B4F6EA003BD69C /* Info.plist */,
+				19A3A8F120B74EA400ACAEF9 /* NodeObject.swift */,
 			);
 			path = GroebeBallGame;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A3A8F220B74EA400ACAEF9 /* NodeObject.swift in Sources */,
 				19B3F03220B4F6EA003BD69C /* GameScene.swift in Sources */,
 				19B3F03420B4F6EA003BD69C /* GameViewController.swift in Sources */,
 				19B3F02C20B4F6EA003BD69C /* AppDelegate.swift in Sources */,
